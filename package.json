@@ -1,0 +1,43 @@
+{
+  "name": "lappland-codex-pets",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/x-if666/lappland-codex-pets.git"
+  },
+  "description": "Reproducible local build pipeline for two Lappland the Decadenza Codex pets.",
+  "scripts": {
+    "test": "npm run test:qa && npm run test:installers && npm run test:release",
+    "postinstall": "node scripts/patch-spine-exporter.mjs",
+    "fetch": "node scripts/fetch-assets.mjs",
+    "fetch:update-lock": "node scripts/fetch-assets.mjs --update-lock",
+    "render": "node scripts/render-spine.mjs",
+    "build": "node scripts/build-pets.mjs",
+    "validate": "node scripts/validate.mjs",
+    "validate:fast": "node scripts/validate.mjs --skip-previews",
+    "qa:previews": "node scripts/qa-previews.mjs",
+    "runtime:profile": "node scripts/runtime-profile.mjs",
+    "runtime:verify": "node scripts/runtime-profile.mjs --verify",
+    "test:qa": "node scripts/test-qa-packaging.mjs",
+    "test:installers": "node scripts/test-release-installers.mjs",
+    "test:release": "node scripts/test-release-package.mjs",
+    "install:local": "node scripts/install-local.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "all": "npm run build && npm run validate"
+  },
+  "dependencies": {
+    "cwebp-bin": "8.0.0",
+    "ffmpeg-static": "5.3.0",
+    "sharp": "0.33.5",
+    "spine-exporter": "0.8.0"
+  },
+  "engines": {
+    "node": ">=18.19 <19 || >=20.3"
+  },
+  "devDependencies": {
+    "archiver": "7.0.1"
+  }
+}

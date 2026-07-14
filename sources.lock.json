@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/isHarryh/Ark-Models",
+    "branch": "main",
+    "usage": "personal-local-noncommercial"
+  },
+  "assets": {
+    "default": {
+      "repoPath": "models/1038_whitw2",
+      "assetBase": "build_char_1038_whitw2",
+      "files": {
+        "build_char_1038_whitw2.atlas": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2/build_char_1038_whitw2.atlas",
+          "sha256": "eebf894ff2cfbf8c7a429b40f6c3b42fcd2047fd3311c2dacd64937f44569f1c"
+        },
+        "build_char_1038_whitw2.png": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2/build_char_1038_whitw2.png",
+          "sha256": "d6cb8fa9a27c15a7050351e117d80f1ece3de520625b0b0d7a73435ae99c3f45"
+        },
+        "build_char_1038_whitw2.skel": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2/build_char_1038_whitw2.skel",
+          "sha256": "fea8a0b74fa985e04da33c60daa0f48cf83d9961ccd7e81b1777007e50bbbe03"
+        }
+      }
+    },
+    "unruly-humbleness": {
+      "repoPath": "models/1038_whitw2_sale#15",
+      "assetBase": "build_char_1038_whitw2_sale#15",
+      "files": {
+        "build_char_1038_whitw2_sale#15.atlas": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2_sale%2315/build_char_1038_whitw2_sale%2315.atlas",
+          "sha256": "669253b240946d6620638bd694d6ece37a78f9561591de2849beb15658da6aac"
+        },
+        "build_char_1038_whitw2_sale#15.png": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2_sale%2315/build_char_1038_whitw2_sale%2315.png",
+          "sha256": "ea0d462b14cda857dc626bd08c35b4185c6383964d8cb843d0e0b58783c42061"
+        },
+        "build_char_1038_whitw2_sale#15.skel": {
+          "url": "https://raw.githubusercontent.com/isHarryh/Ark-Models/main/models/1038_whitw2_sale%2315/build_char_1038_whitw2_sale%2315.skel",
+          "sha256": "f58a1a1ee169b7eacb5d9d8e1bcde78c84864a699edf9afd64f0269f6981dde9"
+        }
+      }
+    }
+  }
+}
