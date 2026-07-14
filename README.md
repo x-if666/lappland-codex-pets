@@ -1,4 +1,4 @@
-# 荒芜拉普兰德 Codex 宠物
+# 荒芜拉普兰德 Codex 宠物 · lappland-codex-pets
 
 给 Codex 做的荒芜拉普兰德小人，包含默认服装和「无序的谦卑」。不是像素重画，而是由游戏内 Q 版 Spine 动画转换而来，也没有用 AI 补图。
 
